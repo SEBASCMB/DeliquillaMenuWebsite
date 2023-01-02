@@ -37,6 +37,6 @@ export const FeatureButton = styled.button`
     color: #fff;
     background: #e31837;
     transition: 0.2s ease-out;
-    cursor: pointer;
+    cursor: pointer
   }
 `;

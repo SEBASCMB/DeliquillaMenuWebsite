@@ -8,8 +8,7 @@ import {
   ProductImg,
   ProductInfo,
   ProductDesc,
-  ProductPrice,
-  ProductButton
+  ProductPrice
 } from './ProductsElements';
 
 const Products = ({ heading, data }) => {
@@ -25,7 +24,6 @@ const Products = ({ heading, data }) => {
                 <ProductTitle>{product.name}</ProductTitle>
                 <ProductDesc>{product.desc}</ProductDesc>
                 <ProductPrice>{product.price}</ProductPrice>
-                <ProductButton>{product.button}</ProductButton>
               </ProductInfo>
             </ProductCard>
           );

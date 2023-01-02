@@ -6,8 +6,7 @@ import {
   HeroContent,
   HeroItems,
   HeroH1,
-  HeroP,
-  HeroBtn
+  HeroP
 } from './HeroElements';
 
 const Hero = () => {
@@ -25,7 +24,6 @@ const Hero = () => {
         <HeroItems>
           <HeroH1>UN CARNAVAL DE SABORES</HeroH1>
           <HeroP>QUE ESPERAS PARA VENIR</HeroP>
-          <HeroBtn>ORDENAR AHORA</HeroBtn>
         </HeroItems>
       </HeroContent>
     </HeroContainer>
